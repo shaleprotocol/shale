@@ -1,6 +1,6 @@
 # Shale - Decentralized Compute
 
-Shale is aiming to bring cloud computing to Filecoin and make people be able to rent computing units from Storage Providers (SPs) just like on AWS or Google Cloud.
+Shale is aiming to bring cloud computing to Filecoin and allow people to lease computing units from Storage Providers (SPs) just like on AWS or Google Cloud.
 
 With Shale, SPs are able to earn SHALE or FIL by leasing their computing severs (CPU/RAM/GPU servers) together with their sealed data.
 
