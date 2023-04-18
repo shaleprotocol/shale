@@ -21,7 +21,7 @@ def list():
 @click.option('--num_rams', default='12Gi')
 @click.option('--num_gpus', default=1)
 @click.option('--bandwidth', default='1Mbps')
-@click.option('--image', default='tensorflow:gpu')
+@click.option('--image', default='renning22/shale-inference-gpu:latest')
 @click.option('--mnt', multiple=True)
 @click.option('--ssh_pubkey', default='~/.ssh/id_rsa.pub')
 def give_me_container(miner, price, num_cpus, num_rams, num_gpus, bandwidth, image, mnt, ssh_pubkey):
@@ -42,7 +42,7 @@ def give_me_container(miner, price, num_cpus, num_rams, num_gpus, bandwidth, ima
 @click.option('--num_cpus', default=4, show_default=True)
 @click.option('--num_rams', default='16g', show_default=True)
 @click.option('--num_gpus', default='all', show_default=True)
-@click.option('--image', default='tensorflow:gpu', show_default=True)
+@click.option('--image', default='renning22/shale-inference-gpu:latest', show_default=True)
 @click.option('--cache_dir', default='/tmp', show_default=True)
 @click.option('--fullnode_ip', default='Node21')
 @click.option('--mount', '-m', multiple=True)
