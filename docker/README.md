@@ -1,6 +1,8 @@
 ## shale-inference-gpu
 
-The default all-in-one GPU image based on [Huggingface inference CUDA](https://github.com/huggingface/transformers/tree/main/docker/transformers-all-latest-gpu) with openssh-server installed. 
+The default all-in-one GPU image based on [Huggingface PyTorch GPU](https://hub.docker.com/r/huggingface/transformers-pytorch-gpu) with openssh-server installed.
+
+See 
 
 ```
 cd shale-inference-gpu
